@@ -2,6 +2,28 @@ h1 {
 	color: Red;
 	font-family: Georgia;
 }
-a href (
-	padding: 3 px;
-)
+
+body {
+	font-family: Times New Roman;
+	background-color: grey;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	background-color: black;
+}
+
+li a{
+	display: block;
+	color: white;
+    padding: 30px 5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blue;
+    color: white;
+}
