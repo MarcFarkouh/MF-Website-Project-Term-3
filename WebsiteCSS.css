@@ -1,6 +1,8 @@
 h1 {
 	color: Red;
 	font-family: Georgia;
+	text-align: left;
+	font-size: 70px;
 }
 
 body {
@@ -9,25 +11,31 @@ body {
 }
 
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 100px;
-	background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
 }
 
-li a{
-	display: block;
-	color: white;
-    padding: 50px 5px;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
     text-decoration: none;
 }
 
 li a:hover {
     background-color: blue;
-    color: white;
 }
- img {
-	 width:800px;
-	 height: 500px;
- }
+
+body {
+    background-image: url(https://media.wired.com/photos/5932988b9be5e55af6c261cb/master/pass/learning-styles.jpg);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
