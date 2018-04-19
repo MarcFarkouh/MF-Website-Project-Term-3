@@ -7,9 +7,10 @@ h1 {
 
 body {
 	font-family: Times New Roman;
-	background-color: grey;
 	font-size: 20px;
-	color: white;
+	color: white;    
+	background-image: url(https://media.wired.com/photos/5932988b9be5e55af6c261cb/master/pass/learning-styles.jpg);
+	background-size: 1450px 850px;
 }
 
 ul {
@@ -34,9 +35,4 @@ li a {
 
 li a:hover {
     background-color: blue;
-}
-
-body {
-    background-image: url(https://media.wired.com/photos/5932988b9be5e55af6c261cb/master/pass/learning-styles.jpg);
-	background-size: 1450px 850px;
 }
