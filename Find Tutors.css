@@ -8,13 +8,15 @@ h1 {
 }
 
 td {
-	border: .5px solid black;
+	border: 2px solid black;
 	padding: 30px;
+	font-size: 21px;
 
 }
 
 th{
-	border: .5px solid black;
+	border: 2px solid black;
+	font-size: 21px;
 }
 
 body {
@@ -26,4 +28,6 @@ body {
 
 table {
 	text-align: center;
+	margin-left: 200px;
+	margin-top: 75px;
 }
