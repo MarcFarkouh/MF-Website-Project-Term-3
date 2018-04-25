@@ -6,4 +6,58 @@ h1 {
 body {
 	background-image: url(https://cdn.betakit.com/wp-content/uploads/2014/05/o-CANADIAN-MONEY-facebook-1050x700.jpg);
 	background-size: 2050px 750px;
+	
+	
+}
+
+li {
+	list-style-type: none;
+ }
+
+p {
+	font-size: 23px;
+    word-spacing: 450px;
+ }
+
+ul.bargraph li {
+    height: 35px;
+    color: red;
+    text-align: left;
+    font-weight:bold;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+	margin-top: 5px;
+    }
+	
+ul.bargraph li.first{
+background:#00008B ;
+width:67%;
+}
+ 
+ul.bargraph li.second {
+background:#0000FF ;
+width:61%;
+}
+ 
+ul.bargraph li.third{
+background: #1E90FF;
+width:40%;
+}
+ 
+ul.bargraph li.fourth {
+background: #00FFFF;
+width:47%;
+}
+ 
+ul.bargraph li.fifth {
+background: #ADD8E6;
+width:19%;
+}
+
+ul.bargraph li.xaxis {
+background: black;
+width:80%;
+height: .5px;
 }
