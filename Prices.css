@@ -1,23 +1,18 @@
 h1 {
-	font-size: 60px;
+	font-size: 70px;
 	color: Red;
 }
 
 body {
 	background-image: url(https://cdn.betakit.com/wp-content/uploads/2014/05/o-CANADIAN-MONEY-facebook-1050x700.jpg);
-	background-size: 2050px 750px;
-	
-	
+	background-size: 2050px 750px;	
 }
 
 li {
 	list-style-type: none;
+	float: left;
  }
 
-p {
-	font-size: 23px;
-    word-spacing: 450px;
- }
 
 ul.bargraph li {
     height: 35px;
@@ -26,9 +21,9 @@ ul.bargraph li {
     font-weight:bold;
     font-size: 18px;
     line-height: 30px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-	margin-top: 5px;
+    padding: 10px 150px;
+    margin-bottom: 1px;
+	margin-top: 20px;
     }
 	
 ul.bargraph li.first{
@@ -38,17 +33,17 @@ width:67%;
  
 ul.bargraph li.second {
 background:#0000FF ;
-width:61%;
+width:53%;
 }
  
 ul.bargraph li.third{
 background: #1E90FF;
-width:40%;
+width:31%;
 }
  
 ul.bargraph li.fourth {
 background: #00FFFF;
-width:47%;
+width:43%;
 }
  
 ul.bargraph li.fifth {
@@ -56,8 +51,39 @@ background: #ADD8E6;
 width:19%;
 }
 
-ul.bargraph li.xaxis {
+ul.bargraph li.xaxis{
 background: black;
-width:80%;
-height: .5px;
+width:30%;
+height: 20px;
+padding: 1px 415px;
+}
+
+ul.navigationbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+	border: 2px solid white;
+	width: 702px;
+}
+
+li a{
+	font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+	padding-top: 20px;
+    text-decoration: none;
+	list-style-type: none;
+	background-color: black;
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+li.xaxis {
+	font-size: 20px;
+    word-spacing: 500px;
 }

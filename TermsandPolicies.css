@@ -1,5 +1,5 @@
 h1 {
-	font-size: 60px;
+	font-size: 70px;
 	color: Red;
 }
 
@@ -10,3 +10,41 @@ body {
 	font-size: 20px;
 	
 }
+
+p{
+	font-weight: bold;
+	color: orange;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+	border: 2px solid white;
+	width: 53%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+.box{
+	border: 10px dotted pink;
+    padding: 9px;
+    margin: 5px;
+	
+} 

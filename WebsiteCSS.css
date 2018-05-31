@@ -8,9 +8,10 @@ h1 {
 body {
 	font-family: Times New Roman;
 	font-size: 20px;
-	color: white;    
+	color: black;    
 	background-image: url(https://media.wired.com/photos/5932988b9be5e55af6c261cb/master/pass/learning-styles.jpg);
 	background-size: 1450px 850px;
+	
 }
 
 ul {
@@ -19,6 +20,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: black;
+	border: 2px solid white;
+	width: 54%;
 }
 
 li {
@@ -29,10 +32,38 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 40px;
+    padding: 20px 50px;
     text-decoration: none;
 }
 
 li a:hover {
     background-color: blue;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 5px;
+}
+
+.box {
+    width: 1280px;
+    border: 5px solid red;
+    padding: 9px;
+    margin: 3px;
+}
+
+figcaption {
+	font-size: 21 px;
+}
+
+.mySlides {
+display:none
+}
+
+.w3-left, .w3-right, .w3-badge {
+cursor:pointer
+}
+.w3-badge {
+height:13px;width:13px;padding:0
 }
