@@ -2,19 +2,76 @@
 <html>
 	<head>
 		<body>
-		
+
 		<title> Find Tutors </title>
 		
 			<link href="./Find Tutors.css" type="text/css" rel="stylesheet">
-		
 	</head>
 	
-<form>
-<input type="button" value="Home" onclick="history.back()">
-</form>	
+	<h1> Find Tutors </h1>	
+		
+		<div class="search">
+		<ul>
+			<li><a href= "./htmlwebsite.html"> Home </a></li>
+			<li><a href= "./Find Tutors.html"> Tutors </a></li>
+			<li><a href= "./Prices.html"> Prices </a></li>
+			<li><a href= "./TermsandPolicies.html"> Terms and Policies </a></li>
+			<li><input id="Search" type="text" name="search" placeholder="Search Tutor:"></li>
+		
+		<input type="submit" onclick='selectedClass()'>
+			
+			
+		</ul>
+		
+<script>
+
+function selectedClass(){
+	var selectedClass = document.getElementById("Search").value;
+	switch (selectedClass){
+/** Named my function which is please work, and put my switch in **/
+/** Also have all of my cases stated below **/
+		case "Susan Louis":
+			selectedClass="Susan Louis";
+			break;
 	
-	<h1> <u>Find Tutors</u> </h1>
+		case "Mohammed Salah":
+			selectedClass="Mohammed Salah";
+			break;
 	
+		case "Peter Griffin":
+			selectedClass="Peter Griffin";
+			break;
+	
+		case "George Houston":
+			selectedClass="George Houston";
+			break;
+	
+		case "Emily Thompson":
+			selectedClass="Emily Thompson";
+			break;
+	
+		case "Trevor Pigion":
+			selectedClass="Trevor Pigion";
+			break;
+	
+		case "Liam Daniels":
+			selectedClass="Liam Daniels";
+			break;
+	
+		case "David Freely":
+			selectedClass="David Freely";
+			break;
+						}
+		var className = document.getElementsByClassName(selectedClass);
+for (m= 0; m<className.length; m++){
+	className[m].style.backgroundColor ="blue";
+		
+			}
+									}
+		
+		
+</script>
+		
 		<table>
 		<tr>
 			<th> Name </th>
@@ -25,7 +82,7 @@
 		</tr>
 		
 		<tr>
-		<td> Susan Louis </td>
+		<td class="Susan Louis"> Susan Louis </td>
 		<td> Saudi Arabia </td>
 		<td> English </td>
 		<td> 41 </td>
@@ -33,7 +90,7 @@
 		</tr>
 		
 		<tr>
-		<td> Mohammed Salah </td>
+		<td class="Mohammed Salah"> Mohammed Salah </td>
 		<td> Montreal, Quebec </td>
 		<td> Math </td>
 		<td> 25 </td>
@@ -41,15 +98,15 @@
 		</tr>
 		
 		<tr> 
-		<td> Peter Griffin </td>
+		<td class="Peter Griffin"> Peter Griffin </td>
 		<td> California, U.S.A </td>
 		<td> Science </td>
 		<td> 39 </td>
-		<td> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> </td>
+		<td> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> </td>
 		</tr>
 	
 		<tr>
-		<td> George Houston </td>
+		<td class="George Houston"> George Houston </td>
 		<td> Moscow, Russia </td>
 		<td> Russian </td>
 		<td> 68 </td>
@@ -57,10 +114,33 @@
 		</tr>
 		
 		<tr> 
-		<td> Emily Thompson </td>
-		<td> China </td>
+		<td class= "Emily Thompson"> Emily Thompson </td>
+		<td> South Africa </td>
 		<td> Arts </td>
 		<td> 21 </td>
 		<td> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> </td>
 		</tr>
-	
+		
+		<tr>
+		<td class="Trevor Pigion"> Trevor Pigion </td>
+		<td> Ottawa,Canada </td>
+		<td> Chemistry </td>
+		<td> 26 </td>
+		<td> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> </td>
+		</tr>
+		
+		<tr>
+		<td class="Liam Daniels"> Liam Daniels </td>
+		<td> Honk kong, China</td>
+		<td> Art </td>
+		<td> 31 </td>
+		<td> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> </td>
+		</tr>
+
+		<tr>
+		<td class="David Freely"> David Freely</td>
+		<td> Vancouver, British Colombia</td>
+		<td> Math </td>
+		<td> 39 </td>
+		<td> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> </td>
+		</tr>
