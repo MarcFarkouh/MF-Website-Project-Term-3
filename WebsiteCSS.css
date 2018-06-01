@@ -55,6 +55,8 @@ li a:hover {
 
 figcaption {
 	font-size: 21 px;
+	color: blue;
+	font-weight: bold;
 }
 
 .mySlides {
@@ -66,4 +68,8 @@ cursor:pointer
 }
 .w3-badge {
 height:13px;width:13px;padding:0
+}
+
+p {
+	font-weight: bold;
 }
