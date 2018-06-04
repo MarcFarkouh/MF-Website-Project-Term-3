@@ -1,8 +1,9 @@
+/* Used to style my prices linked page */
 h1 {
 	font-size: 70px;
 	color: Red;
 }
-
+/* Used for background picture */
 body {
 	background-image: url(https://cdn.betakit.com/wp-content/uploads/2014/05/o-CANADIAN-MONEY-facebook-1050x700.jpg);
 	background-size: 2050px 750px;	
@@ -13,6 +14,7 @@ li {
 	float: left;
  }
 
+/* Used to style the bar graph */
 
 ul.bargraph li {
     height: 35px;
@@ -57,7 +59,7 @@ width:30%;
 height: 20px;
 padding: 1px 415px;
 }
-
+/*Used for the navigation bar styling */
 ul.navigationbar{
     list-style-type: none;
     margin: 0;
