@@ -40,7 +40,7 @@ li a {
 li a:hover {
     background-color: blue;
 }
-
+/* Used to style the bottom images */
 .column {
 	float: left;
 	width: 25%;
