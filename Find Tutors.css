@@ -1,3 +1,5 @@
+/* This is to add design to my website */
+
 h1 {
 	font-size: 70px;
 	color: Red;
@@ -19,6 +21,8 @@ th{
 	font-size: 21px;
 }
 
+/*Used for my background picture */
+
 body {
 	background-image: url(http://www.littlescholarsllc.com/wp-content/uploads/2017/12/tutoring-3.jpg);
 	background-size: 1350px 750px; 
@@ -30,7 +34,7 @@ table {
 	margin-left: 200px;
 	margin-top: 65px;
 }
-
+/*This is for the styling of the navigation bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -58,7 +62,7 @@ li a {
 li a:hover {
     background-color: blue;
 }
-
+/* This is used for the styling of the navigation bar */
 .search input[type=text]{
     padding: 8px;
     border: 5px solid red;
