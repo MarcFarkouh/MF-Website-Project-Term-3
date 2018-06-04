@@ -1,10 +1,11 @@
+/*Used for styling of the main page */
 h1 {
 	color: Red;
 	font-family: Georgia;
 	text-align: left;
 	font-size: 70px;
 }
-
+/*Used for background picture */
 body {
 	font-family: Times New Roman;
 	font-size: 20px;
@@ -13,7 +14,7 @@ body {
 	background-size: 1450px 850px;
 	
 }
-
+/* Used for styling of navigation bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -45,31 +46,16 @@ li a:hover {
 	width: 25%;
 	padding: 5px;
 }
-
+/* Used for box around text on main page */
 .box {
     width: 1280px;
     border: 5px solid red;
     padding: 9px;
     margin: 3px;
 }
-
+/* used for words under pictures */
 figcaption {
 	font-size: 21 px;
 	color: blue;
-	font-weight: bold;
-}
-
-.mySlides {
-display:none
-}
-
-.w3-left, .w3-right, .w3-badge {
-cursor:pointer
-}
-.w3-badge {
-height:13px;width:13px;padding:0
-}
-
-p {
 	font-weight: bold;
 }
